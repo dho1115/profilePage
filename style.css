@@ -1,0 +1,110 @@
+#aboutMe {
+    margin-bottom: 1rem;
+}
+
+#audiosDiv {
+    margin: 1rem;
+}
+
+#aboutMe, #hobbySection {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin: 1rem;
+}
+
+#audiosDiv, #destinationsSection, #screenplaySection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+body {
+    background-image: url("./background/Rastafari.jpg");
+    animation-name: bodyBackground;
+    animation-duration: 50s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 7;
+    padding: 3rem;
+}
+
+#contact {
+    text-align: center;
+}
+
+#destinationsSection div {
+    flex-basis: 25%;
+}
+
+#destinatonsSection div img {
+    text-align: center;
+}
+
+img {
+    border: 3px solid black;
+    padding: 0px;
+}
+
+/* Animation Name */
+@keyframes bodyBackground {
+    0% { background-image: url("./background/compareNow.jpg")};
+    25% { background-image: url("./background/MegaTron.jpg")};
+    50% { background-image: url("./background/Alihossein.jpg")};
+    75% { background-image: url("./background/JShine.jpg")};
+    100% { background-image: url("./background/Rastafari.jpg")};
+}
+
+li {
+    list-style-type: circle;
+}
+
+#profilePic {
+    display: flex;
+    justify-content: center;
+}
+
+#profilePic img {
+    border: 3px solid darkgreen;
+}
+
+#screenplaySection div {
+    flex-basis: 19%;
+    padding: 3px;
+    text-align: center;
+}
+
+#screenplaySection div h5 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#screenplaySection div p {
+    margin-top: 1px;
+}
+
+#secretPicture {
+    opacity: 0;
+}
+
+#secretPicture:hover {
+    opacity: 1;
+}
+
+svg {
+    margin-right: 1rem;
+    height: 25px;
+    padding: 0px;
+}
+
+.textalignLeft {
+    text-align: left;
+}
+
+video {
+    border: 1px solid black;
+}
