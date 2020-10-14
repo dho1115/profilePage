@@ -24,10 +24,6 @@
     background-color: whitesmoke;
 }
 
-#beautifulAngel {
-    text-align: center;
-}
-
 body {
     background-image: url("./background/Rastafari.jpg");
     animation-name: bodyBackground;
@@ -106,6 +102,7 @@ svg {
 }
 
 .textalignLeft {
+    padding-left: 10%;
     text-align: left;
 }
 
